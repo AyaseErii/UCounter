@@ -5,9 +5,9 @@
 | :exclamation: GF180mcuC shuttle MPW0            |
 |-----------------------------------------|
 
-## Binary Counter
+## Counter
 
-This is a binary counter with `clock`, `reset`, `data_in`, `scanload`, and `count_out`.
+This is a counter with `clock`, `reset`, `io_out`.
 
 The counter design (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-demo-sequential_counter/tree/main/openlane/cntr_example/runs/cntr_example/results/final/gds) and the wrappered counter (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-demo-sequential_counter/tree/main/openlane/user_project_wrapper/runs/user_project_wrapper/results/final/gds).
 
