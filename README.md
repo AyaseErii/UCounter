@@ -35,7 +35,18 @@ make user_project_wrapper
 After the flow compeleted, you can repeat the Step 2 iteratively until you get a satisfied design.
 
 ### Step 3: Run the precheck
-Before running the precheck, you need to modify the [user_defines.v](https://github.com/AyaseErii/Counter/blob/main/verilog/rtl/user_defines.v)
+Before running the precheck, you need to modify the [user_defines.v](https://github.com/AyaseErii/Counter/blob/main/verilog/rtl/user_defines.v) to define `GPIO`s. Then you need to install the local precheck module which will just take a few seconds to finish the installation.
+```
+cd {YOUR_PROJECT_DIR}
+make precheck
+```
+After that you can start precheck process:
+```
+make run-precheck
+```
+This will take a few minutes to a few hours, depending on the size of the entire design.
+
+If the precheck finished with `ALL CHECK PASSED`, you are done with the design and ready for tape-out, and congradulations!
 
 ## Contributors
 Jun (Jerry) Yin, Ceylan M. Morgul, Rahul Sreekumar, Xuanjia (Eric) Bi, and Mircea R. Stan.
