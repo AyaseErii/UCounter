@@ -1,3 +1,0 @@
-[submodule "verilog/rtl/vga-clock"]
-	path = verilog/rtl/vga-clock
-	url = https://github.com/mattvenn/vga-clock
