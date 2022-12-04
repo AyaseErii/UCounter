@@ -46,7 +46,7 @@ make run-precheck
 ```
 This will take a few minutes to a few hours, depending on the size of the entire design.
 
-If the precheck finished with `ALL CHECK PASSED`, you are done with the design and ready for tape-out, and congradulations!
+If the precheck finished with `{{SUCCESS}} All Checks Passed !!!`, you are done with the design and ready for tape-out, and congradulations!
 
 ## Contributors
 Jun (Jerry) Yin, Ceylan M. Morgul, Rahul Sreekumar, Xuanjia (Eric) Bi, and Mircea R. Stan.
