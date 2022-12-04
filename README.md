@@ -34,6 +34,9 @@ make user_project_wrapper
 
 After the flow compeleted, you can repeat the Step 2 iteratively until you get a satisfied design.
 
+### Step 3: Run the precheck
+Before running the precheck, you need to modify the (user_defines.v)[https://github.com/AyaseErii/Counter/blob/main/verilog/rtl/user_defines.v]
+
 ## Contributors
 Jun (Jerry) Yin, Ceylan M. Morgul, Rahul Sreekumar, Xuanjia (Eric) Bi, and Mircea R. Stan.
 
