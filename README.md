@@ -16,8 +16,8 @@ Before running the design flow, please make sure the gf180 PDK was installed cor
 
 Once you have done with PDK setups, you can simply follow the commands below after you changed the corresponding [cntr_example.v](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/verilog/rtl/cntr_example.v), [config.tcl](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/openlane/cntr_example/config.tcl) file, all files in the [includes](https://github.com/AyaseErii/gf180-demo-sequential_counter/tree/main/verilog/includes) directory, and the [user_netlist.v](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/verilog/rtl/uprj_netlists.v) of the counter:
 ```
-git clone https://github.com/AyaseErii/gf180-demo-binary_counter.git
-cd gf180-demo-binary_counter
+git clone https://github.com/AyaseErii/Counter.git
+cd Counter
 make cntr_example
 ```
 
@@ -27,7 +27,7 @@ The command above will generate the digital counter design (gdsii) and all neces
 
 Before running the flow of `user_project_wrapper`, please make sure you changed the [user_project_wrapper.v](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/verilog/rtl/user_project_wrapper.v), [config.tcl](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/openlane/user_project_wrapper/config.tcl) of the `user_project_wrapper.v`, and [macro.cfg](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/openlane/user_project_wrapper/macro.cfg) for macro placement.
 
-Once you have done with the above commands, you need to go to `gf180-demo-binary_counter` directory again, and use the command below:
+Once you have done with the above commands, you need to go to `Counter` directory again, and use the command below:
 ```
 make user_project_wrapper
 ```
